@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>群组-组织关系</title>
+    <link type="text/css" rel="stylesheet" href="http://qunarzz.com/ctrip_tmc_bmp/prd/styles/release/group@dev.css"/>
+</head>
+<body>
+<div class="g-cont m-group-rel">
+    <div class="m-head">群组-组织关系</div> 
+    <div class="m-com-hd">
+        	<!-- {条件搜索 -->
+        <div class="m-search">
+            <form id="js-corp-form">
+                <div class="rows">
+                    <div class="col2">
+                        公司信息：
+    				    <span class="g-ipt-text inp-txt-l">
+                            <input name="corpID" type="text" class="input-normal" placeholder="公司ID/公司名称"/>
+                        </span>
+                    </div>
+                    <div class="col2-btn">
+                        <button class="g-btn-v js-query"><span>查&nbsp;询</span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- 条件搜索} -->
+        <h2 class="js-corp-ifo"></h2>
+    </div>
+    <div id="js-iframe">
+    </div>
+</div>
+
+<script src="http://qunarzz.com/jquery/prd/jquery-1.8.3.js"></script>
+<script src="http://qunarzz.com/ctrip_tmc_bmp/prd/scripts/release/group.js"></script>
+</body>
+</html>
